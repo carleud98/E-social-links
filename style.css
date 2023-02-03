@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://www.liveabout.com/thmb/cXCuw5YdQ8_NjWncZczR6e-WYQg=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/OnePiece-free2-56a013df3df78cafda9ff8ff.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin: 18px;
+  border: 1px solid white;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.social-link:hover {
+  box-shadow: 1px 0px 1px 1px red;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 12px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+div > h2 {
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+div > p {
+  font-size: 14px;
+}
